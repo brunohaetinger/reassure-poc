@@ -3,7 +3,7 @@ import { View, Text, Pressable } from 'react-native';
 import { fireEvent, RenderAPI, screen } from '@testing-library/react-native';
 import { measurePerformance } from 'reassure';
 
-import { List as TestList } from "./List"
+import { SlowList as TestList } from "./SlowList"
 
 const AsyncComponent = () => {
   const [count, setCount] = React.useState(0);
